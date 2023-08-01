@@ -1,0 +1,7 @@
+{
+    "entry": {
+      "term": "getJSON",
+      "definition": "응답 data가 JSON형식, 즉 JavaScript 객체 형식으로 나오기 때문에 JavaScript 객체처럼 활용 가능"
+    }
+  }
+  
