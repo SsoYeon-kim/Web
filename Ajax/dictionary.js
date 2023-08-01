@@ -13,6 +13,7 @@ $(document).ready(function(){
             url: 'ajax.xml', // 요청이 전송되는 URL
             type: 'GET', // Http요청 방식
             dataType: 'xml', // Http요청 후 return하는 데이터의 Type
+            // data : 서버로부터 받은 데이터 (AJAX요청을 통해 받아온 데이터)
             success: function(data){ // 성공적으로 서버로 값을 보냈을 경우 처리하는 코드
                 $('#dictionary').empty();
                 $.each($(data).find('entry'), function(){
